@@ -4,7 +4,7 @@ public class Serialize {
 
     public static void main(String[] args) throws Exception {
 //Student 객체를 직렬화하여 파일에 저장하고 파이렝 저장된 bytes로부터 역직렬화하여 다시 객체로 만드는 예제이다.
-        Student student = new Student("JS", 123);
+        Student student = new Student("JS", 123, "1234");
 
         // serialization
         File file = new File("./student.file");
