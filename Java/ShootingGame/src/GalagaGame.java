@@ -44,7 +44,7 @@ public class GalagaGame extends JPanel implements KeyListener {
 	
 	//생성자
 	public GalagaGame() {
-		JFrame frame = new JFrame("Galaxy Shooting Game!!!"); //게임 타이틀 (게임 윈도우 창과 게임 이름을 설정)
+		JFrame frame = new JFrame("Galaxy Shooting Game."); //게임 타이틀 (게임 윈도우 창과 게임 이름을 설정)
 		
 		//화면에 보여줄 프레임을 구성
 		frame.setSize(1600, 850); // 프레임 크기 가로 1600 세로 850
