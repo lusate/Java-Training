@@ -75,6 +75,7 @@ public class M_C_Sample_2 {
 		if(SStv.getOnoff() == false)
 		System.out.println("Power is off now");
 		System.out.println();
+		System.out.println("v2.0")
 	}
 
 }
